@@ -1,3 +1,4 @@
+import { router } from "../router"
 
 //Formulario para registrarse
 export const Registro = {

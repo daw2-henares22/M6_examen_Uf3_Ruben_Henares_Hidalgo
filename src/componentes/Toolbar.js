@@ -1,7 +1,8 @@
 import { router } from "../router"
 
-export const Toolbar = {
-    template:`
+//este es el menu
+export const Toolbar ={
+    template: `
     <nav class="navbar navbar-expand-lg bg-body-tertiary" >
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -30,21 +31,21 @@ export const Toolbar = {
     script: ()=>{
         console.log('hola soy header')
         //home
-        document.querySelector('#Home').addEventListener('click',()=>{
+        document.querySelector('#home').addEventListener('click',()=>{
             router.Home()
         })
 
         //about
-        document.querySelector('#About').addEventListener('click',()=>{
+        document.querySelector('#about').addEventListener('click',()=>{
             router.About()
         })
         //admin
-        document.querySelector('#Admin').addEventListener('click',()=>{
+        document.querySelector('#admin').addEventListener('click',()=>{
             router.Admin()
         })
         
         //login
-        document.querySelector('#Login').addEventListener('click', ()=>{
+        document.querySelector('#login').addEventListener('click', ()=>{
             router.Login()
         })
         const main = document.querySelector("main")
@@ -59,7 +60,7 @@ export const Toolbar = {
         })
 
         //about
-        document.querySelector('#About').addEventListener('click',()=>{
+        document.querySelector('#about').addEventListener('click',()=>{
             router.About()
         })
     }

@@ -1,4 +1,4 @@
-import { router } from '../router'
+import { router } from "../router"
 
 //Formulario para modificar el perfil del usuario
 export const EditarPerfil = {
