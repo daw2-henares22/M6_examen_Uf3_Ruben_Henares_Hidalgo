@@ -11,7 +11,7 @@ export const Toolbar = {
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#" id="Home">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#" id="About">About</a>
@@ -30,22 +30,22 @@ export const Toolbar = {
     script: ()=>{
         console.log('hola soy header')
         //home
-        document.querySelector('#home').addEventListener('click',()=>{
+        document.querySelector('#Home').addEventListener('click',()=>{
             router.Home()
         })
 
         //about
-        document.querySelector('#about').addEventListener('click',()=>{
-            router.about()
+        document.querySelector('#About').addEventListener('click',()=>{
+            router.About()
         })
         //admin
-        document.querySelector('#admin').addEventListener('click',()=>{
-            router.admin()
+        document.querySelector('#Admin').addEventListener('click',()=>{
+            router.Admin()
         })
         
         //login
-        document.querySelector('#login').addEventListener('click', ()=>{
-            router.login()
+        document.querySelector('#Login').addEventListener('click', ()=>{
+            router.Login()
         })
         const main = document.querySelector("main")
         //detectamos el evento click en los botones eliminar y editar
@@ -59,8 +59,8 @@ export const Toolbar = {
         })
 
         //about
-        document.querySelector('#about').addEventListener('click',()=>{
-            router.about()
+        document.querySelector('#About').addEventListener('click',()=>{
+            router.About()
         })
     }
 }

@@ -1,17 +1,18 @@
-import { Home } from "../vistas/home";
+import { Home } from "../vistas/Home";
 import { Login } from "../vistas/Login";
 import { AdminUser } from "../vistas/AdminUser";
 import { EditarPerfil } from "../componentes/EditarPerfil";
 import { Usuario } from "../componentes/Usuario";
 
 export const mainRoute = '/';
-export const routes={
-    home: '/home',
-    login: '/login',
-    adminUser: '/adminUser',
-    admin: '/admin',
-    about: '/about',
-}
+
+// export const routes={
+//     home: '/home',
+//     login: '/login',
+//     adminUser: '/adminUser',
+//     admin: '/admin',
+//     about: '/about',
+// }
 
 export const router = {
     Home: ()=>{
@@ -51,7 +52,7 @@ export const router = {
         Registro.script()
         
     },
-    about: ()=>{
+    About: ()=>{
         document.querySelector('main').innerHTML = `<h1>About</h1>`
 
     },

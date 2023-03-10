@@ -1,6 +1,6 @@
 import { Usuario } from "../componentes/Usuario";
 //Creación de la tabla de usuarios
-export const adminUser = {
+export const AdminUser = {
     template:`
     <table class="table table-dark table-striped" id="tabla">
       <thead>
